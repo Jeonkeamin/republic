@@ -1,0 +1,41 @@
+.img_g {display:inline-block;overflow:hidden;background:url(http://m1.daumcdn.net/svc/image/U03/common_icon/527B1A970370F60001) no-repeat 0 0;text-indent:-9999px}
+.tit_service {display:block;overflow:hidden;background:url(http://m1.daumcdn.net/svc/image/U03/common_icon/50AF81880170B10001) no-repeat 0 0}/* 서비스 타이틀 */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .img_g {background-image:url(http://m1.daumcdn.net/svc/image/U03/common_icon/527B1A8D03540C0004);-webkit-background-size:192px 170px;background-size:192px 170px}
+    .tit_service {background-image:url(http://m1.daumcdn.net/svc/image/U03/common_icon/50AF816E0172130001);-webkit-background-size:64px 20px;background-size:64px 20px}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    .img_g {background-image:url(http://m1.daumcdn.net/svc/image/U03/common_icon/527B1A640358520001);-webkit-background-size:192px 170px;background-size:192px 170px}
+    .tit_service {background-image:url(http://m1.daumcdn.net/svc/image/U03/common_icon/50AF81560164040001);-webkit-background-size:64px 20px;background-size:64px 20px}
+}
+/********** Header **********/
+.d_head {position:relative;z-index:0;width:100%;height:42px;border-top:1px solid #434753;border-bottom:1px solid #2e313b;background-color:#3d414d}
+.d_head .tit_daum {float:left;padding-left:8px}
+.d_head .link_daum {float:left;height:31px;padding-top:11px;font-size:0;line-height:0;vertical-align:top}
+.d_head .link_service {float:left;height:30px;margin-left:6px;padding-top:12px;vertical-align:top}
+.d_head .inner_service {width:64px;height:20px;font-size:16px;line-height:1;background-position:0 0;color:#fff}
+.d_head .link_relate {float:left;height:42px;margin-left:10px;font-weight:bold;font-size:15px;line-height:43px;letter-spacing:-1px;color:#8d95a2;-webkit-text-shadow:0 1px 0 #2b2d36;text-shadow:0 1px 0 #2b2d36}
+.d_head .wrap_util {float:right;padding-right:4px}
+.d_head .link_util {display:inline-block;float:left;width:32px;height:30px;margin-right:1px;padding-top:12px}
+.d_head .ico_search {display:block;width:19px;height:19px;margin:0 auto;background-position:-87px -22px}
+.d_head .ico_all {display:block;width:18px;height:19px;margin:0 auto;background-position:-88px 0}
+.d_head .link_app {width:36px;height:33px;margin:0 -2px 0 2px;padding-top:9px;text-align:center}
+/********** GNB **********/
+.gnb_comm {overflow:hidden;width:100%}
+.gnb_comm li {float:left;width:28.33%}
+    .gnb_comm .fst {width:15%}
+.gnb_comm .lst {overflow:hidden;float:none;width:auto}
+.gnb_comm .link_menu {display:block;height:38px;font-weight:bold;font-size:15px;line-height:40px;background-color:#5182f5;text-align:center;color:#fff;letter-spacing:-1px;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,0.2);box-shadow:inset 0 -1px 0 rgba(0,0,0,0.2);-webkit-text-shadow:0 1px 0 rgba(0,0,0,0.15);text-shadow:0 1px 0 rgba(0,0,0,0.15)}
+.gnb_comm .on .link_menu {background-color:#3d61b8}
+    .lnb_comm {overflow:hidden;width:100%}
+.lnb_comm li {float:left;width:20%}
+        .lnb_comm .lst {overflow:hidden;float:none;width:auto}
+.lnb_comm .link_menu {display:block;height:37px;border-bottom:1px solid #cbd0d3;font-weight:bold;line-height:38px;background-color:#f0f1f5;text-align:center;color:#484848;letter-spacing:-1px}
+.iphone .lnb_comm .link_menu {line-height:40px}
+.lnb_comm .link_menu:after {float:right;height:12px;margin-top:13px;border-left:1px solid #dbdcdf;border-right:1px solid #fcfcfd;content:''}
+.lnb_comm .lst .link_menu:after {display:none}
+.lnb_comm .on .link_menu {color:#5182f5}
